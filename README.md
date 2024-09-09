@@ -43,7 +43,7 @@ The markdown format is commonly used for things like readme files, as they allow
 which allows for basic typesetting when viewed while still being a plaintext format.
 
 Below is a blank checkbox:
-- [ ] Put an X in the [ ] to mark this as done!
+- [X] Put an X in the [ ] to mark this as done!
 
 You can edit this file directly to check off these checkboxes throughout the lab to mark things as done.
 Do so now for the checkbox above.
@@ -90,7 +90,7 @@ class FizzBuzz {
 
     public static void main(String[] args) {
 
-        for (int i = 1; i < 100; i++) {
+        for (int i = 1; i < 1000; i++) {
 
             // Find out which numbers divide i.
             boolean divisibleBy3 = i % 3 == 0;
